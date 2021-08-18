@@ -1,0 +1,562 @@
+:root {
+    --color-alert: #D13138;
+    --color-dark: #252525;
+    --color-gray:  #454545;
+  }
+html
+{font-size: 10px;}
+.section-pd-large
+{
+  padding: 10rem 0;
+}
+.section-pd-medium
+{
+  padding: 5rem 0;
+}
+.bg-primary
+{
+  background: #0A91E7;
+}
+.text-transform--initial
+{text-transform: initial !important;}
+.large-title
+{
+font-style: normal;
+font-weight: bold;
+font-size: 52px;
+line-height: 1.2;
+text-transform: uppercase;
+color:  var(--color-dark);
+ }
+ .small-title
+ { 
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color:  var(--color-dark);
+ }
+.text-nomal
+{
+  padding-top: 1.7rem;
+font-size: 1.6rem;
+line-height: 2.8rem;
+color:  var(--color-gray);
+text-align: justify;
+}
+.text-small
+{
+  font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 25px;
+text-align: center;
+color: #454545;
+}
+ .paragraph
+ { 
+  line-height: 1.5;
+  font-size: 2.4rem;
+  color:  var(--color-gray);
+ }
+.nav__breadcrumb span
+{
+font-size: 1.4rem;
+margin-right: 1.3rem;
+color:  var(--color-alert);
+}
+.banner__top
+{background-image: url(../uploads/images/bg-banner-top.png);
+background-repeat: no-repeat;
+background-size: 60%;
+background-position: top right;
+}
+.banner__top__img
+{
+  padding: 5rem 0;
+}
+.banner__top__textbox .paragraph
+{padding: 1.6rem 0 3.2rem 0;}
+.btn__download
+{display: flex;}
+.btn__download button
+{display: flex;
+flex-basis: 25%;
+border-radius: .8rem;
+background-color: #000;
+color: #fff;
+padding: .5rem 1rem;
+margin-right: 3rem;
+}
+/*circle absolute*/
+.ellipse-1714
+{
+  top: 20%;
+}
+.ellipse-1713
+{
+left: 2%;
+top: 40%;
+}
+.ellipse-1715
+{
+bottom: 25%;
+right: 20%;
+z-index: 2;
+}
+.ellipse-1712
+{
+bottom: 22%;
+right: 24%;
+}
+.ellipse-1717
+{
+  top: 1rem;
+  right: 0;
+}
+.ellipse-1711
+{
+  top: 1rem;
+  right: 35%;
+}
+.ellipse-1716
+{
+  top: 30%;
+  right: 50%;
+}
+.ellipse-1710
+{
+  right: 22%;
+  top: 20%;
+}
+.ellipse-1705
+{
+left: 0;
+top: 55%;
+z-index: -1;
+}
+.ellipse-1706
+{
+  right: 33%;
+  top: 15%;
+}
+.ellipse-1707
+{
+  top: 10%;
+  right: 30%;
+}
+
+.btn__download .btn__download__icon
+{flex-basis: 16%;
+margin-right: .7rem;
+}
+.btn__download .btn__download__icon img
+{max-width: 100%;}
+.btn__download__text p
+{text-align: left;
+  line-height: 1.2;
+}
+.btn__download__text p:first-of-type
+{font-size: 1.2rem;
+opacity: .8;
+}
+.btn__download__text p:last-of-type
+{font-size: 2rem;}
+.block__overview__img
+{padding-left: 5%;}
+.block__overview__img .block__overview__img--small
+{
+right: 30%;
+  top: 30%;
+}
+.block__workapp h2
+{ 
+  text-transform: initial;
+}
+.workapp__step__icon
+{border-radius: 50%;
+  flex-basis: 14%;
+  display: flex;
+  justify-content: center;
+padding: 1.6rem;
+margin-right: 2.4rem;
+position: relative;
+margin : 2.4rem 2.4rem 2.4rem 0;
+border: 2px solid #0A91E7;
+}
+.workapp__step__icon::after
+{
+
+  content: " ";
+  top: 100%;
+  left: 50%;
+  position: absolute;
+  width: 2px;
+  height: 4.8rem;
+  background: #0A91E7;
+}
+
+.workapp__step__text p:first-of-type
+{
+  font-size: 2rem;
+  color: #888888;
+}
+.workapp__step__text p:last-of-type
+{
+font-style: normal;
+font-weight: bold;
+font-size: 2.7rem;
+padding-top: .8rem;
+line-height: 2.9rem;
+color:  var(--color-dark);
+}
+.block__workapp__step:last-of-type .workapp__step__icon:after
+{display: none;}
+.block__smartchoice__title
+{
+  margin-bottom: 3.2rem;
+}
+
+.block__smartchoice__content .text-nomal
+{padding-top:.8rem;
+text-align: left;
+padding-right: 10rem;
+}
+.block__smartchoice__content > div
+{padding: 1.2rem 0;}
+.block__smartchoice__slide .swiper-wrapper
+{width: 100%;}
+.app-container {
+	padding: 3rem 0;
+}
+
+.block__appscreen__slide.swiper-container {
+  width: 100% !important;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.block__smartchoice__slide .swiper-pagination-bullet
+{
+  width: 6px;
+  height: 6px;
+}
+.block__smartchoice__slide .swiper-pagination-bullet-active
+{width: 8rem;
+  height: 6px;
+border-radius: 5px;
+}
+.block__smartchoice__slide .swiper-pagination
+{
+  position: relative;
+  text-align: left;
+  padding-top: 2.4rem;
+}
+.block__appscreen__slide .swiper-pagination-bullet-active
+{
+  width: 6.7rem;
+  border-radius: 5px;
+}
+.block__appscreen__slide .swiper-slide{
+  width: 27% !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.block__appscreen__slide .swiper-slide img
+{width: 100%;
+height: 100%;
+}
+.block__appscreen__slide .swiper-button-prev ,.block__appscreen__slide .swiper-button-next
+{display: none;}
+.community__row
+{padding: 5.5rem 2.3rem;}
+.community__box__img > div
+{background: #F5F5F5;
+border-radius: 50%;
+padding: 1rem;
+position: relative;
+}
+.community__box__img  img
+{position: relative;
+right: 30%;
+}
+
+.community__box__content p
+{text-align: justify;
+  padding:0 3rem;
+text-align-last: center;
+}
+.community__box h3
+{font-weight: bold;
+  font-size: 2.4rem;
+  line-height: 2.8rem;
+  color: #252525;
+padding: 2.6rem 1.6rem;
+}
+.block__QRcode
+{padding: 3.5rem 0;}
+.btn__download__app ,.QR--code
+{width: 20%;
+margin: 0 auto;
+display: flex;
+justify-content: center;
+padding: 1.4rem;
+}
+.QR--code img
+{flex-basis: 41%;
+  margin: 0 1rem;
+  filter: drop-shadow(0px 8px 16px rgba(63, 63, 63, 0.08));
+}
+.btn__download__app button
+{
+
+margin: 0 1rem;
+flex-basis: 41%;
+}
+.download-app-QRcode
+{
+font-style: normal;
+font-weight: bold;
+font-size: 27px;
+line-height: 29px;
+color: #252525;
+padding: 2rem 0;
+}
+.footer--list > p
+{font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;  
+  text-align: justify; 
+  color: #252525;
+margin-bottom: 1.7rem;
+}
+  .footer--list li
+  {font-size: 14px;
+    color: #454545;
+    padding: 0.6rem 0;
+    line-height: 1.5;
+  }
+  .footer__box
+  {padding: 2rem;}
+  .footer__icon__link {
+    padding-top: 1rem;
+    color: var(--color-gray);
+  }
+  .footer__icon a {
+    margin: 0 0.6rem;
+    background: #F5F5F5;
+    border-radius: 50%;
+    border: 1px solid #EBEBEB;
+    box-sizing: border-box;
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 12%;
+  }
+  .footer__icon a img
+  {margin: 1rem;}
+  .footer__icon a:first-of-type {
+    margin: 0 .6rem 0 0;
+  }
+  footer
+  {background-image: url(../uploads/images/bg-footer.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px)
+{
+
+  .mobile--hiden
+  {display: none !important;}
+  .section-pd-large
+  {padding: 5rem 0;}
+  .section-pd-medium
+  {padding: 2.5rem 0;}
+  .large-title
+  {font-size: 4.5rem;text-align: center;padding: 2rem 0;}
+  .paragraph
+  {font-size: 1.8rem;}
+  .banner__top__textbox
+  {text-align: center;}
+  .banner__top .col-12:first-of-type
+  {order: 2;}
+  .banner__top .col-12:last-of-type
+  {order: 1;}
+  .btn__download
+  {
+    display: flex;
+    justify-content: center;
+    padding: 0 3rem
+  }
+  .btn__download button
+  {flex-basis: 40%;
+    margin: 0 1rem;
+  }
+  .block__overview__img img
+  {margin: 0 auto;}
+  .block__workapp .col-12 ,.block__smartchoice .col-12
+  {justify-content: center;display: flex;}
+  .block__workapp .col-12:first-of-type
+  {order: 2;}
+  .block__workapp .col-12:last-of-type
+  {order: 1;}
+  .block__smartchoice__content .text-nomal
+  {padding: 0;}
+  .block__appscreen__slide.swiper-container
+  {padding-top: 10px;}
+  .community__row
+  {padding: 2rem;}
+  .community__box
+  {padding: 2rem;}
+  .download-app-QRcode
+  {margin-top: 2rem !important;}
+  footer
+  {padding: 2rem 0;}
+  .btn__download__app, .QR--code
+  {width: 100%;}
+  .QR--code img 
+  {flex-basis: 20%;}
+  .btn__download button
+  {flex-basis: 35%;}
+  
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+  .mobile--hiden
+  {display: none !important;}
+  .section-pd-large
+  {padding: 6rem 0;}
+  .section-pd-medium
+  {padding: 4rem 0;}
+  .large-title
+  {font-size: 4.5rem;text-align: center;padding: 2rem 0;}
+  .paragraph
+  {font-size: 1.8rem;}
+  .banner__top__textbox
+  {text-align: center;}
+
+  .btn__download
+  {
+    display: flex;
+    justify-content: center;
+    padding: 0 3rem
+  }
+  .btn__download button
+  {flex-basis: 50%;
+    margin: 0 1rem;
+  }
+  .block__overview__img img
+  {margin: 0 auto;}
+  .block__workapp .col-12:first-of-type
+  {order: 2;}
+  .block__workapp .col-12:last-of-type
+  {order: 1;}
+  .btn__download__app, .QR--code
+  {width: 100%;}
+  .QR--code img 
+  {flex-basis: 20%;}
+ 
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 800px) {
+  .large-title
+  {font-size: 3rem;}
+  img
+  {max-width: 100%;}
+  .mobile--hiden
+  {display: block !important;
+  z-index: -1;
+  }
+  .block__smartchoice__content .text-nomal
+  {padding-right: 0;}
+  .btn__download__app button
+  {flex-basis: 20%;
+    margin: 0 1rem;
+    
+  }
+  .workapp__step__icon
+  {flex-basis: 18%;}
+
+  .btn__download button
+  {flex-basis: 50%;
+    margin: 1rem 0 ;
+    padding: .5rem 0;
+    justify-content: center;
+}
+.btn__download button p
+{ 
+  font-size: 1.4rem;
+}
+.block__smartchoice .row
+{display: block;}
+.block__smartchoice .row >div
+{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.community__box__content p
+{padding: 0;}
+.btn__download__app
+{display: flex !important;}
+.btn__download__app button
+{flex-basis: 25%;
+margin: 0 1rem;
+}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  img
+  {max-width: 100%;}
+  .mobile--hiden
+  {display: block;}
+  .banner__top__textbox .large-title
+  {text-align: left;}
+  .block__smartchoice .col-md-6
+  {
+    display: flex;
+    align-items: center;
+  }
+  .btn__download button
+  {flex-basis: 50%;
+    margin: 1rem 0 ;
+    padding: .5rem 0;
+    justify-content: center;
+}
+  .block__smartchoice .col-md-6 .block__smartchoice__content
+  {
+  padding: 1rem 2rem;
+  }
+  .block__smartchoice__content .text-nomal
+  {padding: 0;}
+
+  .btn__download__app button
+  {flex-basis: 20%;
+    margin: 0 1rem;
+  }
+}
+
+
+@media only screen and (min-width: 1240px)
+{
+  .btn__download button
+  {flex-basis: 25%;
+    margin: 1rem 0 ;
+    padding: .5rem 0;
+    justify-content: center;
+    padding: .5rem 1rem;
+    margin-right: 3rem;
+  }  
+}
+
